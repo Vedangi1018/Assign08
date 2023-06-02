@@ -7,7 +7,7 @@ pipeline
         { 
          steps
          {
-          bat 'javac Hello08.java'
+          bat 'javac Hello.java'
           bat 'java -version'
      
           }
@@ -16,7 +16,7 @@ pipeline
         { 
             steps 
             {
-               bat 'java Hello08' 
+               bat 'java Hello' 
             }
         }
     }
