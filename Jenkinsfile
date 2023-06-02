@@ -16,7 +16,7 @@ pipeline
         { 
             steps 
             {
-               bat 'javac Hello08' 
+               bat 'java Hello08' 
             }
         }
     }
